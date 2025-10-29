@@ -4,18 +4,17 @@
   <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
     <meta charset="utf-8">
-    <title> Exercise 7 </ti>
-    </title>
+    <title> Exercise 7 </title>
     <style>
       body {
-        width: 1200px;
+        width: 1600px;
         margin: auto;
         background-color: grey;
         
@@ -23,23 +22,32 @@
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
-        
-        letter-spacing: -0.5px;
       }
       
       h1 {
-        font-family: "Averia Serif Libre", serif;
-        font-weight: 700;
+        font-family: "Instrument Serif", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 51px;
+        font-size: 120px;
+        color: #3A4B41;
+        letter-spacing: -1px;
+        line-height: 1.2;
+        }
+      
+      h2 {
+        font-family: "Instrument Serif", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 30px;
         }
       
       h3 {
-        font-family: "Pinyon Script", cursive;
-        font-weight: 00;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
         font-style: normal;
-        font-size: px;
-        letter-spacing: 0px;
+        letter-spacing: -0.5px;
+        text-transform: uppercase;
       }
 
       ul {
@@ -55,29 +63,37 @@
 
       p {
         font-size: 18px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        letter-spacing: -0.5px;
       }
 
       .container {
         display: grid;
         grid-template-columns: 40% 59%;
-        background-color: blue;
+        grid-template-rows: auto auto;
+        background-color: red;
         gap: 1%;
         padding: 1%;
         margin: 0px;
+        align-items: start;
       }
 
       .grid-item {
-        background-color: gainsboro;
+        background-color: #fbfbfb;
         padding: 20px;
+        
       }
 
       .Ingredients {
-        margin-top: 360px;
+        margin-top: 0px;
       }
 
       
       .title {
-        line-height:-1px;
+        margin-top:0px;
       }
       
       
@@ -87,10 +103,9 @@
   <body>
     <div class="container">
       <div class="grid-item">
-        <h1 class="line-height"> Spinach, Tofu and Sesame Stir-Fry </h1>
-        <h3> By: Martha Rose Shulman </h3>
-        <h3> Yield: 3 Servings </h3>
+        
         <h2 class="Ingredients"> Ingredients </h2>
+        
         <ul>
           <li> 1 tablespoon canola oil </li>
           <li> ½ pound tofu, cut in small dice </li>
@@ -104,14 +119,38 @@
         </ul>
       </div>
       
-      <div class="grid-item"> <img src="recipe-photo.jpg" alt="picture of fried tofu and vegetables">
+      
+      
+      <div class="grid-item"> 
+        <img src="recipe-photo.jpg" alt="picture of fried tofu and vegetables">
+        
         <h2> Preparation </h2>
+        
         <h3> Step 1 </h3>
+        
         <p> Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat. </p>
+        
         <h3> Step 2 </h3>
+        
         <p> Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread. </p>
+        
         <h3> Tip </h3>
+        
         <p> Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance. </p>
       </div>
+      
+      
+      
+      
+      <div class="grid-item">
+        <h1 class="title"> Spinach, Tofu and Sesame Stir-Fry </h1>
+        
+        <h3> By: Martha Rose Shulman </h3>
+        
+        <h3> Yield: 3 Servings </h3>
+      </div>
+      
+      
+      
   </body>
 </html>
